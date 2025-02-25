@@ -57,7 +57,6 @@ yarn.lock
 pnpm-lock.yaml
 
 # Rider & VS Code-specific files
-*.sln
 *.csproj.user
 .vscode/
 
