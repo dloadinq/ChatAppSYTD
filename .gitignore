@@ -1,34 +1,67 @@
 # Common IntelliJ Platform excludes
 
-# User specific
+# JetBrains Rider & IntelliJ IDEA
+**/.idea/
 **/.idea/**/workspace.xml
 **/.idea/**/tasks.xml
 **/.idea/shelf/*
 **/.idea/dictionaries
 **/.idea/httpRequests/
-
-# Sensitive or high-churn files
 **/.idea/**/dataSources/
 **/.idea/**/dataSources.ids
 **/.idea/**/dataSources.xml
 **/.idea/**/dataSources.local.xml
 **/.idea/**/sqlDataSources.xml
 **/.idea/**/dynamic.xml
-
-# Rider
-# Rider auto-generates .iml files, and contentModel.xml
 **/.idea/**/*.iml
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
 
+# Visual Studio & .NET-specific excludes
 *.suo
 *.user
+*.vsp
+*.vspscc
+*.vssscc
+*.cache
+*.log
+*.tlog
+*.ilk
+*.pch
+*.obj
+*.pdb
+*.ipch
+*.sdf
+*.opensdf
+*.VC.db
+*.db
+
+# Build & Release files
 .vs/
 [Bb]in/
 [Oo]bj/
-_UpgradeReport_Files/
-[Pp]ackages/
+out/
+dist/
+publish/
+_TestResults/
+TestResults/
 
+# NuGet & Paketmanager
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Rider & VS Code-specific files
+*.sln
+*.csproj.user
+.vscode/
+
+# Platform-specific files
 Thumbs.db
 Desktop.ini
 .DS_Store
